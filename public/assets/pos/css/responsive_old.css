@@ -1,0 +1,818 @@
+
+/*-------@media 1324px-------*/
+@media (max-width: 1324px) { 
+    .right-content-box {
+        padding: 33px 24px 33px 48px;
+    }
+}
+
+/*-------@media 1300px-------*/
+@media (max-width: 1300px) { 
+    .dashbord-order-detail p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .dashbord-order {
+        padding: 20px 20px;
+    }
+}
+/*-------@media 1200px-------*/
+@media (max-width: 1200px) { 
+    .login-form {
+        padding: 140px 50px;
+    }
+    .login {
+        padding: 24px 0px;
+    }
+    .navigation {
+        width: 288px;
+        left: -300px;
+        padding-top: 0px;
+        z-index: 99991;
+        border-radius: 0 20px 20px 0px;
+    }
+    .hide-side-bar .navigation {
+        width: 288px;
+        left: 0;
+    }
+    .hide-side-bar .right-content {
+        margin-left: 0;
+        position: relative;
+    }
+    .right-content {
+        margin-left: 0;
+    }
+    .logo svg {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .hide-side-bar .main-logo {
+        opacity: 1;
+    }
+    .hide-side-bar .mini-logo {
+        opacity: 0;
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    .logo .hamburger {
+        position: absolute;
+        right: 10px;
+        left: auto;
+        transform: rotate(179deg);
+        top: 6px;
+        top: 31%;
+    }
+    .hide-side-bar .list-item a span {
+        transform: translatex(0px);
+    }
+    .list-item a span {
+        margin-left: 24px;
+    }
+    .hide-side-bar .contact-support-content {
+        display: block;
+    }
+    .hide-side-bar a.contact-icon {
+        display: none;
+    }
+    .right-header {
+        justify-content: space-between;
+    }
+    .nav_list {
+        padding: 20px;
+    }
+    .right-content-box {
+        padding: 24px 15px;
+    }
+    .header-left p {
+        margin-left: 15px;
+    }
+    .hide-side-bar li.list-item a svg {
+        position: static;
+        transform: translate(0);
+    }
+    .hide-side-bar .navigation span.plus-icon {
+        display: block;
+    }
+    .hide-side-bar .navigation:hover {
+        width: 288px;
+    }
+    .logo{
+        position: relative;
+    }
+    .hide-side-bar .right-content:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        background-color: rgba(0, 0, 0, 70%);
+        z-index: 9999;
+        transition: all 0.4s;
+    }
+    .store-information-box1, .store-information-box2 {
+        margin-right: 30px;
+    }
+    .hide-side-bar li.list-item.dropdown.category-dropdown ul.dropdown-menu.show {
+        display: block !important;
+    }
+}
+
+/*-------@media 991-------*/
+@media (max-width: 991px) {
+    
+    .hide-side-bar .contact-support {
+        padding: 24px;
+        height: auto;
+        background: #F7F7F7;
+    }
+    .logo {
+        margin-bottom: 0px;
+        height: auto;
+        position: sticky;
+        top: 0px;
+        background-color: #fff;
+        z-index: 2;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .hide-side-bar .contact-support {
+        width: auto;
+        opacity: 1;
+    }
+    
+    .return-login {
+        position: relative;
+        margin-top: 20px;
+        bottom: 0;
+    }
+    .login-form {
+        padding: 80px 50px;
+        margin-top: 50px;
+    }
+    .login-logo img {
+        width: 200px;
+    }
+    .dashbord-order-detail p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .dashbord-order-detail h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000;
+        margin-bottom: 2px;
+    }
+    .dashbord-order-img {
+        flex: 0 0 50px;
+        height: 50px;
+    }
+    .dashbord-order-detail {
+        margin-left: 15px;
+    }
+    .table-booking-right p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .table-booking-left {
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+    .table-booking-box {
+        padding: 14px 20px;
+    }
+    .table-booking-left h3 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .total-items-right h2 {
+        font-size: 24px;
+        line-height: 29px;
+        margin-left: 24px;
+    }
+    div#list_student_wrapper .row:first-child .col-sm-12.col-md-6:first-child {
+        width: 30%;
+    }
+    div#list_student_wrapper .row:first-child .col-sm-12.col-md-6:last-child {
+        width: 70%;
+    }
+    .store-information-box-outer {
+        flex: 0 0 100%;
+        flex-flow: wrap;
+    }
+    .store-information-box-outer .store-information-box {
+        flex: 0 0 50%;
+        margin-right: 0;
+        padding-right: 24px;
+    }
+    .new-order-tabel-outer.manage-order-table div.dataTables_wrapper div.dataTables_filter input {
+        width: 178px;
+    }
+    .choose-location-modal.send-response-modal .modal-body {
+        padding: 50px;
+    }
+    
+}
+
+/*-------@media 767-------*/
+@media (max-width: 767px) {
+    
+    .login-logo img {
+        width: 150px;
+    }
+    .login-form {
+        padding: 20px;
+    }
+    .login-form h2 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 5px;
+    }
+    .login-form p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .login-btn button {
+        margin-top: 24px;
+        padding: 12px 0 14px;
+    }
+    .already-account.login-terms p {
+        text-align: center;
+        margin-top: 24px;
+    }
+    .login-terms p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .dashbord-order{
+        margin-bottom: 24px;
+    }
+    .col-md-4.col-sm-6:last-child .dashbord-order{
+        margin-bottom:0px;
+    }
+    .table-booking-box {
+        margin-bottom: 24px;
+    }
+    .col-md-4.col-sm-6:last-child .table-booking-box {
+        margin-bottom:0px;
+    }
+    .total-sales {
+        margin-top: 24px;
+    }
+    .section-headding {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .right-header {
+        margin-bottom: 24px;
+    }
+    .section-headding-box {
+        margin-bottom: 24px;
+    }
+    
+    span.custmor-name {
+        display: none;
+    }
+    .header-righr-side .dropdown svg {
+        margin-left: 10px;
+    }
+    .header-left p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    span.location-icon {
+        margin-right: 8px;
+    }
+    span.select-down {
+        margin-left: 8px;
+    }
+    div#list_student_wrapper .row:first-child .col-sm-12.col-md-6:first-child {
+        width: 100%;
+    }
+    div#list_student_wrapper .row:first-child .col-sm-12.col-md-6:last-child {
+        width: 100%;
+    }
+    .new-order-tabel-outer div.dataTables_wrapper div.dataTables_filter input {
+        margin: 0;
+        width: 100%;
+    }
+    #list_student_filter label {
+        position: relative;
+        width: 100%;
+        margin: 24px 0 0;
+    }
+    .new-order-tabel-outer .dataTables_length {
+        padding-left: 0px;
+        text-align: left !important;
+    }
+    .view-order-top-bar-right select {
+        width: 140px;
+        padding: 8px 30px 8px 10px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .right-content-box-bottom h4 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .view-order-top-bar-right {
+        flex: 0 0 100%;
+        margin: 20px 0 8px 0;
+    }
+    .view-order-id-box-outer {
+        margin-bottom: 20px;
+    }
+    .view-order-customer-detail h5 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .view-order-customer-detail-box h4 {
+        padding-bottom: 0;
+    }
+    p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .view-order-id, .view-order-type {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 3px 10px;
+    }
+    .comman-btn {
+        padding: 9px 24px;
+        font-size: 14px;
+        line-height: 110%;
+    }
+    .right-content-box-bottom {
+        padding: 20px;
+    }
+    .change-location-box label.form-check-label {
+        padding: 14px 16px;
+    }
+    .change-location-option label span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .change-location-box h5 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .change-location-box .close-button {
+        position: absolute;
+        border: 0;
+        top: 10px;
+        right: 10px;
+    }
+    .choose-location-modal .modal-body {
+        padding: 50px 50px;
+    }
+    .choose-location-modal .modal-body {
+        padding: 24px;
+    }
+    .setup-header-outer {
+        margin-bottom: 20px;
+        padding: 20px 20px 20px 20px;
+    }
+    .border-header {
+        width: 86%;
+        top: 33px;
+    }
+    .setup-number {
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .setup-header-box h4 {
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 12px;
+        padding: 0 5px;
+    }
+    .setup-header-line {
+        left: 11px;
+        position: relative;
+    }
+    .bulid-form-outer {
+        padding: 20px;
+    }
+    h2.section-headding {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+    .avatar-upload {
+        margin-bottom: 20px;
+    }
+    .right-content-wrapper {
+        margin-bottom: 20px;
+    }
+    .upload__img-box {
+        margin: 0 14px 14px 0;
+    }
+    .map-box{
+        margin-top: 24px;
+    }
+    .close-date-time-btn button {
+        margin-left: 10px;
+    }
+    .store-payment-information .store-information1 {
+        margin-right: 50px;
+    }
+    .new-order-tabel-outer table.dataTable {
+        margin-top: 24px !important;
+    }
+    .new-order-tabel-outer.manage-order-table div.dataTables_wrapper div.dataTables_filter input {
+        margin:0;
+        width: 100%;
+    }
+    .new-order-tabel-outer.table-booking-table div.dataTables_wrapper div.dataTables_filter input {
+        width: 100%;
+    }
+    .menu-view-box-outer {
+        display: block;
+    }
+    .menu-view-box-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .menu-view-box-heading {
+        margin-bottom: 12px;
+    }
+    .menu-item-add-on-box.menu-item-add-on-box2 {
+        margin-top: 24px;
+    }
+    .menu-item-add-on-box {
+        padding: 20px 20px 3px 20px;
+        height: auto;
+    }
+    .right-content-box-bottom h4 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .menu-item-add-on-box h3 {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 14px;
+    }
+    .active-inactive-iteam.customer-toggle p {
+        font-size: 12px;
+        line-height: 19px;
+        margin-right: 6px;
+    }
+    .back-to-page svg {
+        margin-right: 5px;
+    }
+    .back-to-page {
+        margin-bottom: 20px;
+    }
+    .customer-detail-box-item {
+        flex: 0 0 100%;
+    }
+    .choose-location-modal.send-response-modal .modal-body {
+        padding: 24px;
+    }
+    .contact-inquery-outer {
+        column-count: 1;
+    }
+    .contact-inquery-box p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    h1.page-heading {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+    .location-detail h5 {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 6px;
+    }
+    .location-detail p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .location-box.seting-box .location-box-left {
+        margin-bottom: 20px;
+    }
+    .choose-location-modal.minimum-order-limit .modal-body {
+        padding: 40px 20px 30px;
+    }
+    .choose-location-modal.minimum-order-limit .change-location-box p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 27px;
+    }
+    .choose-location-modal.minimum-order-limit .change-location-box h5 {
+        margin-bottom: 10px;
+    }
+    .minimum-order-limit-btn {
+        margin-top: 20px;
+    }
+    .home-add-more {
+        height: 150px
+        margin-top: 24px;
+    }
+}
+
+/*-------@media 600-------*/
+@media (max-width: 600px) {
+    
+}
+
+/*-------@media 576-------*/
+@media (max-width: 576px) {
+    .header-toggle {
+        margin-right: 15px;
+    }
+    .header-toggle [type="checkbox"].toggle:checked + label .on {
+        margin-right: 16px;
+    }
+    .header-toggle input[type="checkbox"].toggle + label .off {
+        margin-left: 16px;
+    }
+    .right-header {
+        padding: 15px;
+    }
+    
+    .section-custom {
+        margin-left: 24px;
+    }
+    .right-header .dropdown-menu.show {
+        right: -127px !important;
+    }
+    .header-left {
+        flex: 0 0 100%;
+    }
+    .right-header {
+        padding: 15px;
+        flex-flow: wrap;
+    }
+    .header-righr-side {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    span.login-img {
+        width: 35px;
+    }
+    
+    .header-left {
+        border-bottom: 1px solid #ecf3fb;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .right-header-without-login .header-left{
+        display: none;
+    }
+    .view-order-top-bar-right select {
+        width: 100px;
+        background-position: right 10px center !important;
+        margin: 0 10px 0 5px;
+    }
+    .header-righr-side .hamburger {
+        margin-right: 14px;
+    }
+    .view-order-customer-detail {
+        display: block;
+    }
+    .view-order-customer-detail h5:first-child {
+        margin-bottom: 8px;
+    }
+    .choose-location-modal .modal-body {
+        padding: 40px 24px 24px;
+    }
+    .total-item-left-outer {
+        padding-right: 10px;
+    }
+    .total-item-left {
+        padding: 20px 8px 24px 20px;
+    }
+    .header-left p {
+        width: 215px;
+    }
+    .right-header .dropdown-menu.show {
+        right: -97px !important;
+    }
+    .border-header {
+        width: 78%;
+    }
+    .floating-input, .floating-select {
+        height: 44px;
+        padding: 10px 40px 10px 16px;
+    }
+    .floating-label label {
+        left: 16px;
+        top: 48%;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .form-btn-store .comman-btn {
+        padding: 9px 17px;
+        font-size: 14px;
+    }
+    .close-date-time-btn button {
+        height: 44px;
+    }
+    .store-information-box-outer .store-information-box {
+        flex: 0 0 100%;
+        margin-right: 0;
+        padding-right: 24px;
+    }
+    .store-information-box-outer .store-logo {
+        margin-bottom: 20px;
+    }
+    .profile-bulid2 {
+        display: block;
+    }
+    .store-profile-img img {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .social-media-link-box-outer {
+        display: block;
+    }
+    .new-order-tabel-outer.manage-order-table .manage-order-status select {
+        width: 100%;
+    }
+    .new-order-tabel-outer.manage-order-table .manage-order-status {
+        position: absolute;
+        right: 0;
+        top: 72px;
+        z-index: 1;
+        width: 100%;
+        left: 0;
+        padding: 0 15px;
+    }
+    .new-order-tabel-outer.manage-order-table #list_student_filter label {
+        margin: 121px 0 0;
+    }
+    
+    .manage-order-status.manage-order-type {
+        top: 125px !important;
+    }
+    .table-booking-detail-box {
+        display: block;
+    }
+    .table-booking-detail-box-content p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .table-booking-detail-box-content {
+        min-width: 100%;
+        padding-right: 0;
+        margin-bottom: 14px;
+    }
+    .section-headding {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .add-item-addons-outer {
+        position: relative;
+    }
+    .add-item-addons-button .close-date-time.close-date-time-btn {
+        position: absolute;
+        top: 0;
+        right: -10px;
+    }
+    .customer-order-history .accordion-header span h5 {
+        margin: 0 20px 0 10px;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 3px 10px;
+    }
+    .customer-detail-box-item h5 {
+        font-size: 14px;
+        line-height: 17px;
+        flex: 0 0 131px;
+    }
+    .customer-detail-box-item h6 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .customer-detail-box-item {
+        margin-bottom: 10px;
+    }
+    .customer-order-history .accordion-item {
+        padding: 14px 20px 15px;
+    }
+    .add-category .select2-container--default .select2-selection--multiple {
+        height: 44px;
+    }
+    .order-review-box-order-id span {
+        margin: 0 0px 0 8px;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 3px 10px;
+    }
+    .order-review-box-star {
+        margin: 6px 0 10px;
+    }
+    .location-box-left .location-icon {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+    }
+    .location-detail p {
+        font-size: 14px;
+        line-height: 22px
+    }
+    .location-detail {
+        margin-left: 10px;
+    }
+    .choose-location-modal.minimum-order-limit .change-location-box .close-button {
+        top: 10px;
+        right: 10px;
+    }
+
+}
+
+/*-------@media 480-------*/
+@media (max-width: 480px) {
+    .section-custom input {
+        padding: 8px 10px;
+        width: 134px;
+    }
+    .manage-order-status {
+        position: absolute;
+        right: 0;
+        top:72px;
+        z-index: 1;
+        width: 100%;
+        left: 0;
+        padding: 0 15px;
+    }
+    .manage-order-status select{
+        width: 100%;
+    }
+    div#list_student_length {
+        margin-bottom: 40px;
+    }
+    .new-order-tabel-outer.manage-order-table #list_student_filter label {
+        margin: 78px 0 0;
+    }
+    .new-order-tabel-outer.table-booking-table div#list_student_length {
+        margin-bottom: 0;
+    }
+    .section-headding-box.section-headding-dashboard {
+        display: block;
+    }
+    .section-custom {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .view-order-id-box-outer {
+        display: block;
+    }
+    .view-order-id-box:first-child {
+        margin-bottom: 14px;
+    }
+    .view-order-id-box p:first-child {
+        flex: 0 0 70px;
+    }
+    .view-order-top-bar-right button {
+        flex: 0 0 100%;
+        margin-top: 20px;
+    }
+    .view-order-top-bar-right select {
+        width: 50%;
+    }
+    .customer-order-history .accordion-header span h6 {
+        flex: 0 0 100%;
+        margin-top: 10px;
+    }
+    .customer-order-history .accordion-item span {
+        flex-flow: wrap;
+    }
+    .contact-inquery-box-header {
+        display: block;
+    }
+    .order-review-box-order-id {
+        margin-top: 8px;
+    }
+    .order-review-box-mail {
+        display: block;
+    }
+    .setting-right {
+        padding-top: 18px;
+        display: block;;
+    }
+    .setting-right a {
+        margin-top: 10px;
+    }
+        
+}

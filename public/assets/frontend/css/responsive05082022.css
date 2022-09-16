@@ -1,0 +1,1248 @@
+@media(max-width: 1199px) {
+
+    h1 {
+
+        font-size: 50px;
+
+        line-height: 60px;
+
+    }
+
+    h2 {
+
+        font-size: 36px;
+
+    }
+
+    h3 {
+
+        font-size: 28px;
+
+        line-height: 32px;
+
+    }
+
+    h4 {
+
+        font-size: 19px;
+
+        line-height: 28px;
+
+    }
+
+    h5 {
+
+        font-size: 17px;
+
+        line-height: 28px;
+
+    }
+
+    p {
+
+        font-size: 15px;
+
+        line-height: 28px;
+
+    }
+
+    /* Common CSS */
+
+    .common_padding {
+
+        padding: 80px 0;
+
+    }
+
+    .common_btn {
+
+        padding: 14px 35px;
+
+        font-size: 15px;
+
+        line-height: 18px;
+
+    }
+
+    .common_btn.transparent {
+
+        padding: 14px 65px;
+
+    }
+
+    .section_title {
+
+        margin-bottom: 45px;
+
+    }
+
+
+
+    /* Banner */
+
+    .banner {
+
+        padding-top: 106px;
+
+    }
+
+    .banner_content h4 {
+
+        margin-bottom: 40px;
+
+    }
+
+    .banner_animation img {
+
+        max-width: 420px;
+
+    }
+
+    .banner_animation {
+
+        left: 0px;
+
+    }
+
+    /* About Us */
+
+    .about_right h4 {
+
+        margin-bottom: 16px;
+
+    }
+
+    .about_right p {
+
+        margin-bottom: 40px;
+
+    }
+
+    /* Our Features */
+
+    .features_row {
+
+        margin-bottom: 60px;
+
+    }
+
+    .features_labelbox {
+
+        right: -100px;
+
+        padding: 12px 15px;
+
+    }
+
+    .features_content p {
+
+        margin-bottom: 25px;
+
+    }
+
+    .features_labelbox.left {
+
+        bottom: 80px;
+
+        left: -125px;
+
+    }
+
+    .features_labelbox.bottom {
+
+        bottom: -30px;
+
+    }
+
+    .features_animation {
+
+        bottom: 180px;
+
+        left: 0;
+
+    }
+
+    /* Choose Your Plan */
+
+    .plan_box {
+
+        padding: 50px 30px;
+
+        min-height: 529px;
+
+    }
+
+    .choose_plan::before, 
+
+    .choose_plan::after {
+
+        top: -140px;
+
+        width: 126px;
+
+    }
+
+    /* Footer */
+
+    .footer {
+
+        padding-top: 40px;
+
+    }
+
+    .footer ul li,
+
+    .footer ul li a {
+
+        font-size: 15px;
+
+        line-height: 32px;
+
+    }
+
+    .copyright {
+
+        margin-top: 48px;
+
+    }
+
+
+
+    /* Internal Pages */
+
+
+
+    .internal_banner {
+
+        padding-top: 106px;
+
+    }
+
+
+
+    /* About Page */
+
+    .about_work_capabilitie {
+
+        margin: 50px 0 0 0;
+
+    }
+
+    .meet_the_team .section_title {
+
+        margin-bottom: 25px;
+
+    }
+
+    .about_team_box_img img {
+
+        max-width: 180px;
+
+    }
+
+    .about_team_box_img {
+
+        margin: 0 0 25px 0;
+
+    }
+    .footer .container {
+      padding: 0 20px;
+    }
+
+}
+
+@media(max-width: 991px) {
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, address, p, pre, blockquote, dl, dd, menu, ol, ul, table, caption, hr { margin: 0 0 12px 0; }
+
+    h1 {
+
+        font-size: 40px;
+
+        line-height: 50px;
+
+    }
+
+    h2 {
+
+        font-size: 32px;
+
+    }
+
+    h3 {
+
+        font-size: 24px;
+
+        line-height: 28px;
+
+    }
+
+    h4 {
+
+        font-size: 18px;
+
+        line-height: 26px;
+
+    }
+
+    h5 {
+
+        font-size: 16px;
+
+        line-height: 26px;
+
+    }
+
+    p {
+
+        font-size: 14px;
+
+        line-height: 26px;
+
+    }
+
+    /* Common CSS */
+
+    .common_padding {
+
+        padding: 60px 0;
+
+    }
+
+    .common_btn {
+
+        padding: 13px 30px;
+
+        font-size: 14px;
+
+        line-height: 16px;
+
+    }
+
+    .common_btn.transparent {
+
+        padding: 14px 50px;
+
+    }
+
+    .section_title {
+
+        margin-bottom: 40px;
+
+    }
+
+    /* Header */
+
+    .header_block {
+
+        padding: 20px 0;
+
+    }
+
+    .header_btn.desktop {
+
+        display: none;
+
+    }
+
+    .desktop_menu {
+
+        display: none;
+
+    }
+
+    .mobile_sidebar_menu {
+
+        display: block;
+
+    }
+
+    .mobile_sidebar_menu img {
+
+        width: 25px;
+
+        height: 25px;
+
+    }
+
+    /* Banner */
+
+    .banner {
+
+        padding-top: 96px;
+
+    }
+
+    .banner_content h4 {
+
+        margin-bottom: 30px;
+
+    }
+
+    .banner_content h4 br {
+
+        display: none;
+
+    }
+
+    .banner_animation img {
+
+        max-width: 375px;
+
+    }
+
+    .banner_animation {
+
+        left: 15px;
+
+    }
+
+    .banner_video {
+
+        min-height: 500px;
+
+    }
+
+    /* About Us */
+
+    .about_right h4 {
+
+        margin-bottom: 12px;
+
+    }
+
+    .about_right p {
+
+        margin-bottom: 30px;
+
+    }
+
+    /* Our Features */
+
+    .features_row {
+
+        margin-bottom: 40px;
+
+    }
+
+    .features_video {
+
+        text-align: center;
+
+    }
+
+    .features_labelbox {
+
+        right: 0;
+
+        left: 0;
+
+        bottom: -30px;
+
+        margin: 0 auto;
+
+        max-width: 250px;
+
+    }
+
+    .features_labelbox.left {
+
+        bottom: -30px;
+
+        left: 0;
+
+        right: 0;
+
+    }
+
+    .features_content {
+
+        max-width: 480px;
+
+        margin: 0 auto;
+
+    }
+
+    .features_content p {
+
+        margin-bottom: 20px;
+
+    }
+
+    span.video_icon {
+
+        width: 58px;
+
+        height: 58px;
+
+        box-shadow: 0 0 0 8px rgb(255 255 255 / 50%);
+
+    }
+
+    span.video_icon img {
+
+        width: 24px;
+
+        height: 26px;
+
+        object-fit: contain;
+
+    }
+
+    .features_labelbox.bottom {
+
+        bottom: -30px;
+
+        left: 0;
+
+        right: 0;
+
+    }
+
+    .features_col {
+
+        margin-bottom: 50px;
+
+    }
+
+    .modal-dialog {
+
+        max-width: 750px;
+
+        width: 750px;
+
+    }
+
+    /* Choose Your Plan */
+
+    .plan_box {
+
+        padding: 50px 15px;
+
+        min-height: 519px;
+
+    }
+
+    .popular_plan {
+
+        top: 15px;
+
+        right: 26px;
+
+        padding: 5px 14px;
+
+    }
+
+    .view_all {
+
+        margin-top: 40px;
+
+    }
+
+    .choose_plan::before, 
+
+    .choose_plan::after {
+
+        top: -120px;
+
+        width: 106px;
+
+    }
+
+    /* Footer */
+
+    .footer {
+
+        padding-top: 30px;
+
+    }
+
+    .footer_logo {
+
+        margin-bottom: 25px;
+
+    }
+
+    .footer_para p {
+
+        max-width: 100%;
+
+    }
+
+    .footer ul.social_media {
+
+        margin-bottom: 30px;
+
+    }
+
+    .copyright {
+
+        margin-top: 38px;
+
+    }
+
+
+
+    /* Internal Pages */
+
+
+
+    .internal_banner {
+
+        padding-top: 96px;
+
+    }
+
+    .internal_banner .banner_content {
+
+        min-height: 250px;
+
+    }
+
+    
+
+    /* About Page */
+
+    .about_work_capabilitie {
+
+        margin: 40px 0 0 0;
+
+    }
+
+    .meet_the_team .section_title {
+
+        margin-bottom: 20px;
+
+    }
+
+    .about_team_box {
+
+        margin: 15px 0 0 0;
+
+        padding: 30px 25px;
+
+    }
+
+    .about_team_box_img img {
+
+        max-width: 160px;
+
+    }
+
+    .about_team_box_img {
+
+        margin: 0 0 20px 0;
+
+    }
+
+
+
+    /* Contact Page */
+
+    .contus_media_list li a {
+
+        width: 45px;
+
+        height: 45px;
+
+    }
+
+    .contus_media_list li {
+
+        margin: 10px 10px 0 0;
+
+    }
+
+    .contact_left_form {
+
+        margin: 20px 0 0 0;
+
+    }
+
+    .contact_right > ul > li {
+
+        margin: 0 0 25px 0;
+
+    }
+
+    .contact_right > ul > li:last-child {
+
+        margin: 0;
+
+    }
+
+}
+
+@media(max-width: 767px) {
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, address, p, pre, blockquote, dl, dd, menu, ol, ul, table, caption, hr { margin: 0 0 8px 0; }
+
+    h1 {
+
+        font-size: 30px;
+
+        line-height: 40px;
+
+    }
+
+    h2 {
+
+        font-size: 28px;
+
+    }
+
+    h3 {
+
+        font-size: 22px;
+
+        line-height: 26px;
+
+    }
+
+    h4 {
+
+        font-size: 17px;
+
+        line-height: 24px;
+
+    }
+
+    h5 {
+
+        font-size: 15px;
+
+        line-height: 24px;
+
+    }
+
+    /* Common CSS */
+
+    .common_padding {
+
+        padding: 40px 0;
+
+    }
+
+    .common_btn {
+
+        padding: 12px 25px;
+
+        font-size: 13px;
+
+    }
+
+    .common_btn.transparent {
+
+        padding: 13px 40px;
+
+    }
+
+    .section_title {
+
+        margin-bottom: 35px;
+
+    }
+
+    /* Header */
+
+    .header_block, .site_header.smaller .header_block {
+
+        padding: 15px 0;
+
+    }
+
+    /* Banner */
+
+    .banner_content_cover {
+
+        display: flex;
+
+        justify-content: center;
+
+        padding-top: 40px;
+
+    }
+
+    .banner_content h4 {
+
+        margin-bottom: 20px;
+
+    }
+
+    .banner_animation {
+
+        right: 0;
+
+    }
+
+    .banner_animation img {
+
+        margin: 0 auto;
+
+    }
+
+    .banner_video {
+
+        justify-content: center;
+
+        padding: 50px 0;
+
+        min-height: 400px;
+
+    }
+
+    .banner_video::after {
+
+        display: none;
+
+    }
+
+    /* About Us */
+
+    .about_left {
+
+        margin-bottom: 30px;
+
+    }
+
+    .about_right p {
+
+        margin-bottom: 20px;
+
+    }
+
+    /* Our Features */
+
+    .modal-dialog {
+
+        max-width: 550px;
+
+        width: 550px;
+
+    }
+
+    .features_animation {
+
+        display: none;
+
+    }
+
+    .features_row {
+
+        margin-bottom: 30px;
+
+    }
+
+    /* Choose Your Plan */
+
+    .choose_plan::before, 
+
+    .choose_plan::after {
+
+        display: none;
+
+    }
+
+    .plan_box {
+
+        padding: 40px 15px;
+
+        min-height: 500px;
+
+        margin-bottom: 30px;
+
+    }
+
+    .popular_plan {
+
+        top: 12px;
+
+        right: 20px;
+
+    }
+
+    .plan_box ul li {
+
+        font-size: 15px;
+
+        line-height: 28px;
+
+        margin-bottom: 8px;
+
+    }
+
+    .view_all {
+
+        margin-top: 0;
+
+    }
+
+    /* Footer */
+
+    
+
+    .footer_logo {
+
+        margin-bottom: 20px;
+
+    }
+
+    .footer h4.footer_title {
+
+        position: relative;
+
+        cursor: pointer;
+
+        margin-bottom: 10px;
+
+    }
+
+    .footer h4.footer_title::after {
+
+        content: '';
+
+        position: absolute;
+
+        top: 4px;
+
+        right: 0;
+
+        filter: grayscale(0) invert(1);
+
+        width: 15px;
+
+        height: 15px;
+
+        background-image: url(../images/down-arrow.svg);
+
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+        background-size: contain;
+
+    }
+
+    .footer h4.footer_title.active::after {
+
+        background-image: url(../images/up-arrow.svg);
+
+    }
+
+    .footer_col {
+
+        padding-top: 10px;
+
+        border-top: 1px solid rgb(255 255 255 / 20%);
+
+    }
+
+    .footer_col:last-child {
+
+        border-bottom: 1px solid rgb(255 255 255 / 20%);
+
+    }
+
+    .copyright {
+
+        margin-top: 28px;
+
+        border-top: 0;
+
+    }
+
+
+
+    /* Internal Pages */
+
+
+
+    .internal_banner .banner_content {
+
+        min-height: 200px;
+
+    }
+
+
+
+    /* About Page */
+
+    .about_work_img {
+
+        margin-bottom: 30px;
+
+    }
+
+    .about_work_content h2, 
+
+    .about_work_content p {
+
+        max-width: 100%;
+
+    }
+
+    .meet_the_team .section_title {
+
+        margin-bottom: 15px;
+
+    }
+
+    .about_work_capabilitie {
+
+        margin: 30px 0 0 0;
+
+    }
+
+    .about_team_box {
+
+        padding: 25px 20px;
+
+    }
+
+    .about_team_box_img img {
+
+        max-width: 120px;
+
+    }
+
+    .about_team_box_img {
+
+        margin: 0 0 15px 0;
+
+    }
+
+    .about_team_box_content h4 {
+
+        color: #1f51ff;
+
+        margin-bottom: 5px;
+
+    }
+    .about_work_img img {
+        margin: 0 auto;
+    }
+
+
+
+    /* Contact Page */
+
+    .contact_left {
+
+        padding: 0;
+
+        margin-bottom: 40px;
+
+    }
+
+    .contus_media_list li a {
+
+        width: 40px;
+
+        height: 40px;
+
+    }
+
+}
+
+@media(max-width: 575px) {
+
+    h1 {
+
+        font-size: 26px;
+
+        line-height: 30px;
+
+    }
+
+    h2 {
+
+        font-size: 24px;
+
+    }
+
+    h3 {
+
+        font-size: 20px;
+
+        line-height: 24px;
+
+    }
+
+    h4 {
+
+        font-size: 16px;
+
+        line-height: 22px;
+
+    }
+
+    h5 {
+
+        font-size: 14px;
+
+        line-height: 22px;
+
+    }
+
+    /* Common CSS */
+
+    .common_btn.transparent {
+
+        padding: 12px 30px;
+
+    }
+
+    .section_title {
+
+        margin-bottom: 35px;
+
+    }
+
+    /* Header */
+
+    .header_logo a img {
+
+        width: 140px;
+
+    }
+
+    /* Banner */
+
+    .banner_content_cover {
+
+        padding-top: 30px;
+
+    }
+
+    .banner_animation {
+
+        display: none;
+
+    }
+
+    .banner_bg_img img {
+
+        border-radius: 15px;
+
+    }
+
+    .banner_video {
+
+        padding: 40px 0 0px;
+
+        min-height: inherit;
+
+    }
+
+    span.banner_video_icon {
+
+        width: 34px;
+
+        height: 34px;
+
+    }
+
+    .video_icon_bg {
+
+        padding: 5px 13px 5px 7px;
+
+    }
+
+    /* Our Features */
+
+    .modal-dialog {
+
+        max-width: 100%;
+
+    }
+
+    .features_row {
+
+        margin-bottom: 20px;
+
+    }
+
+    .features_video_bg_img img {
+
+        border-radius: 15px;
+
+    }
+
+    /* Choose Your Plan */
+
+    .plan_box {
+
+        min-height: inherit;
+
+        padding: 30px 15px;
+
+    }
+
+    .plan_box ul li {
+
+        font-size: 14px;
+
+        line-height: 26px;
+
+        margin-bottom: 6px;
+
+    }
+
+    /* Our Features */
+
+    span.video_icon {
+
+        width: 50px;
+
+        height: 50px;
+
+        box-shadow: 0 0 0 6px rgb(255 255 255 / 50%);
+
+    }
+
+    span.video_icon img {
+
+        width: 20px;
+
+        height: 22px;
+
+        object-fit: contain;
+
+    }
+
+    /* Internal Pages */
+
+
+
+    .internal_banner {
+
+        padding-top: 79px;
+
+    }
+
+
+
+    /* About Page */
+
+    .about_team_box {
+
+        padding: 20px 15px;
+
+    }
+
+    .about_team_box_img {
+
+        margin: 0 0 10px 0;
+
+    }
+
+    .about_team_box_img img {
+
+        max-width: 100px;
+
+    }
+
+}
+
+
+

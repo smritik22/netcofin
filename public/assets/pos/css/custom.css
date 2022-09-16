@@ -1,0 +1,578 @@
+/* Subcategory */
+.view-order-top-bar{
+    margin-bottom: 24px;
+}
+.sub_pages_box .add_btn{
+    padding: 10px 18px;
+}
+.sub_pages_box .add_btn span{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.subcategory_order .manage-order-status select{
+    padding: 8px 32px 8px 16px;
+    min-width: 200px;
+}
+.subcategory_order .dataTables_filter{
+    padding-right: 50px;
+}
+.subcategory_order.manage-order th.check_box .form-check-input[type=checkbox]{
+    vertical-align: bottom;
+}
+.subcategory_order.manage-order th.check_box::after,
+.subcategory_order.manage-order th.check_box::before,
+.subcategory_order.manage-order th.action::after,
+.subcategory_order.manage-order th.action::before,
+.subcategory_order.manage-order th.toggle_btn_head::after,
+.subcategory_order.manage-order th.toggle_btn_head::before{
+    display: none;
+}
+.subcategory_order.manage-order th.toggle_btn_head p,
+.subcategory_order.manage-order th.action p{
+    justify-content: center;
+}
+.subcategory_order .toggle_btn .customer-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-order-tabel-outer .subcategory_order a{
+    margin: 0;
+    display: inline-flex;
+}
+.new-order-tabel-outer .subcategory_order a.action_edit,
+.new-order-tabel-outer .subcategory_order a.action_delete{
+    margin:0 0 10px 10px;
+}
+.new-order-tabel-outer .subcategory_order a.action_edit{
+    background: #C6E9FC;
+}
+.new-order-tabel-outer .subcategory_order a.action_delete{
+    background: #FFEAEB;
+}
+.subcategory_order.manage-order td.action_btn{
+    text-align: center;
+}
+.subcategory_order .text_list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subcategory_order .text_list .text_item{
+    padding: 3px 8px;
+    background: rgba(78, 78, 78, 0.05);
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin: 0 6px 6px 0;
+}
+.button_group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+.button_group button{
+    margin-right: 20px;
+}
+.sub_pages_box .add_btn path,
+.sub_pages_box .add_btn:hover path{
+    transition: all .5s;
+}
+.sub_pages_box .add_btn:hover path{
+    fill:#db3944;
+}
+.form-control.edit_icon{
+    background-image: url('../../assets/images/icon_edit_input.svg') !important;
+    background-position: right 20px center !important;
+    background-repeat: no-repeat;
+    padding-right: 40px;
+}
+/* End Subcategory */
+
+/* Payment History */
+.payment_history_order .dataTables_filter input{
+    margin: 0 !important;
+}
+.detail_link{
+    font-weight: 600;
+    color: #DB3944;
+    transition: all 0.3s;
+}
+.detail_link:hover{
+    color: #1F51FF;
+    transition: all 0.3s;
+}
+/* End Payment History */
+/* Payment Configuration */
+.payment_configuration_order .dataTables_filter input{
+    margin: 0 !important;
+}
+.subcategory_order.payment_configuration_order .dataTables_filter{
+    padding-right: 0;
+}
+/* End Payment Configuration */
+/* Offer */
+.offer_btn_list {
+    display: flex;
+    align-items: center;
+}
+.offer_btn_list .form-check {
+    margin: 10px 20px 30px 0;
+}
+.offer_btn_list .form-check .form-check-label{
+    padding: 0;
+    border: none;
+}
+/* End Offer */
+/* Subscription Plan */
+.plan_history_btn{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E4E4E;
+    transition: all 0.3s;
+}
+.plan_history_btn svg{
+    margin-right: 5px;
+}
+.plan_history_btn:hover{
+    color: #DB3944;
+    transition: all 0.3s;
+}
+.plan_history_btn svg path,
+.plan_history_btn svg path{
+    transition: all 0.3s;
+}
+.plan_history_btn:hover svg path{
+    fill: #DB3944;
+}
+.plan_head,
+.box_head,
+.remaining_days{
+    margin: 0 0 20px;
+}
+.plan_head h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0;
+}
+.box_head,
+.remaining_days,
+.remaining_days .includes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remaining_days .includes{
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E4E4E;
+    margin: 0;
+}
+.remaining_days .includes span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 16px;
+    padding: 5px 18px;
+    border-radius: 5px;
+    background: rgb(219 57 68 / 10%);
+}
+.remaining_days .price{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0;
+}
+.remaining_days .price span{
+    color: #4E4E4E;
+    font-weight: 400;
+}
+.box_head .comman-btn{
+    padding: 10px 14px;
+}
+.box_head .comman-btn svg{
+    margin-right: 10px;
+}
+.box_head .comman-btn path{
+    transition: all .5s;
+}
+.box_head .comman-btn:hover path{
+    fill: #DB3944;
+    transition: all .5s;
+}
+.plan_list.count_2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 768px;
+    margin-bottom: -20px;
+}
+.plan_list.count_1{
+    margin-bottom: 40px;
+}
+.plan_list.count_1 li{
+    display: inline-block;
+    margin-right: 0;
+}
+.plan_list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0 20px 20px 0;
+    padding-left: 22px;
+    position: relative;
+}
+.plan_list li::before{
+    content: '';
+    position: absolute;
+    background: url('../../assets/images/icon_right.svg') no-repeat center;
+    width: 12px;
+    height: 9px;
+    left: 0;
+    top: 6px;
+}
+.right-content-box-bottom.mb_30{
+    margin-bottom: 30px;
+}
+.plan_card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 100%;
+    padding: 40px 56px;
+}
+.plan_card{
+    text-align: center;
+}
+.plan_card h4{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 28px;
+}
+.plan_card h4::before{
+    content: '';
+    position: absolute;
+    background: #DB3944;
+    border-radius: 20px;
+    width: 48px;
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    margin: auto;
+}
+.plan_card .price{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin: 0 0 20px;
+}
+.plan_card .price span{
+    font-weight: 400;
+    color: #4E4E4E;
+}
+.plan_card .includes{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0 0 20px;
+}
+.plan_history h4{
+    margin: 0 0 30px;
+}
+.plan_toggle_body{
+    padding: 0 24px;
+    background: rgb(236 243 251 / 40%);
+    border-radius: 10px;
+    margin: 0 0 10px;
+}
+.plan_toggle_body:last-child{
+    margin: 0;
+}
+.right-content-box-bottom .toggle_btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+    padding: 18px 0;
+    position: relative;
+    cursor: pointer;
+}
+.right-content-box-bottom .toggle_btn::before{
+    content: '';
+    position: absolute;
+    background: url('../../assets/images/down_arrow.svg') no-repeat center;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.toggle_body{
+    padding: 20px 0;
+    border-top: 2px solid #ECF3FB;
+    display: none;
+}
+.toggle_body .head{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0 0 20px;
+}
+.toggle_body .plan_list{
+    margin-bottom: -14px;
+}
+.toggle_body .plan_list li{
+    margin: 0 0 14px;
+}
+.toggle_btn span{
+    display: inline-block;
+}
+.toggle_btn .date{
+    margin-right: 82px;
+}
+.toggle_btn .type{
+    margin-right: 130px;
+}
+.toggle_btn .price{
+    font-weight: 600;
+}
+/* End Subscription Plan */
+/* Staff */
+.location_address p{
+    width: 126px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* End Staff */
+/* Order Reports */
+.download_btn_group{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+.download_btn_group,
+.download_btn_group .pdf,
+.download_btn_group .xls{
+    display: flex;
+    align-items: center;
+}
+.download_btn_group .pdf,
+.download_btn_group .xls{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 10px;
+    padding: 10px 14px;
+}
+.download_btn_group .pdf{
+    background: #DFE6FF;
+    color: #6230A0;
+    margin-right: 20px !important;
+}
+.download_btn_group .xls{
+    background: #C6E9FC;
+    color: #285973;
+}
+.download_btn_group .pdf svg,
+.download_btn_group .xls svg{
+    margin-right: 10px;
+}
+.order_reports.subcategory_order .dataTables_filter{
+    display: none;
+}
+.payment_transaction_action{
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+.payment_transaction_action a{
+    margin: 0 !important;
+}
+/* End Order Reports */
+
+@media (max-width: 1400px) { 
+    .subcategory_order .dataTables_filter{
+        margin-left: -86px;
+    }
+    .plan_row .plan_col{
+        width: 33.3333%;
+    }
+    .plan_card{
+        padding: 40px;
+    }
+    .plan_card .price{
+        font-size: 22px;
+        line-height: 30px;
+        margin: 0 0 16px;
+    }
+}
+@media (max-width: 991px) { 
+    .plan_card{
+        padding: 24px;
+    }
+    .plan_card h4{
+        font-size: 26px;
+        line-height: 32px;
+        margin: 0 0 24px;
+    }
+    .plan_card .includes{
+        margin: 0 0 12px;
+    }
+}
+
+@media (max-width: 767px) { 
+    /* Subcategory */
+    .sub_pages_box .add_btn{
+        padding: 9px 18px;
+    }
+    .subcategory_order .dataTables_filter{
+        padding-right: 0;
+    }
+    .subcategory_order .dataTables_filter{
+        margin-left: 0;
+    }
+    /* End Subcategory */
+    .plan_row .plan_col{
+        width: 50%;
+    }
+    .plan_card{
+        margin-bottom: 24px;
+    }
+}
+@media (max-width: 640px){
+    .remaining_days .price{
+        font-size: 18px;
+    }
+    .plan_head h4{
+        font-size: 16px;
+    }
+    .plan_list li{
+        margin: 0 16px 16px 0;
+    }
+    .plan_list.count_1{
+        margin-bottom: 24px;
+    }
+    .plan_card h4{
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0px 0 22px;
+    }
+    .plan_card .price{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .box_head .comman-btn{
+        padding: 8px 14px;
+    }
+    .toggle_btn .date,
+    .toggle_btn .type{
+        margin-right: 24px;
+    }
+    .download_btn_group{
+        position: static;
+        margin: 0 0 16px;
+    }
+}
+@media (max-width: 480px) { 
+    .payment_configuration_order div#list_student_length,
+    .payment_history_order div#list_student_length{
+        margin-bottom: 0;
+    }
+    .view-order-top-bar{
+        margin-bottom: 16px;
+    }
+    .offer_btn_list .form-check{
+        margin: 0 10px 16px 0;
+    }
+    .plan_row .plan_col{
+        width: 100%;
+    }
+    .remaining_days{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .remaining_days .includes{
+        margin: 0 0 16px;
+    }
+    .plan_card,
+    .plan_list.count_1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .remaining_days .includes span{
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+    .plan_history_btn{
+        margin: 10px 0 0;
+    }
+    .plan_toggle_body{
+        padding: 0 18px;
+    }
+    .right-content-box-bottom .toggle_btn{
+        flex-wrap: wrap;
+    }
+    .toggle_btn .type{
+        display: block;
+        margin: 10px 0 0;
+        order: 3;
+        width: 100%;
+    }
+    .right-content-box-bottom .toggle_btn::before{
+        top: 18px;
+        bottom: auto;
+    }
+    .download_btn_group{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .download_btn_group .pdf{
+        margin-right: 10px !important;
+    }
+    .download_btn_group .pdf, .download_btn_group .xls{
+        font-size: 14px;
+        padding: 8px 10px;
+        margin-bottom: 16px !important;
+    }
+    .order_reports div#list_student_length{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 412px) { 
+    /* Subcategory */
+    .section-headding-box.sub_pages_box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sub_pages_box .add_btn{
+        margin-top: 10px;
+    }
+    /* End Subcategory */
+}
+@media (max-width: 376px) { 
+    .offer_btn_list{
+        flex-wrap: wrap;
+    }
+   
+}
